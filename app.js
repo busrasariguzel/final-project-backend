@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 
-const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/journalRoutes');
 const usersRouter = require('./routes/users');
 
 const app = express();
